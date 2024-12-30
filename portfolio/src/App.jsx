@@ -8,18 +8,18 @@ import Navbar from './components/Navbar';
 import Footer from "./components/Footer";
 import PointerParticles from "./components/PointerParticles";
 
-
 function App() {
   return (
 
     <>
     <main className=" bg-slat-300/20 h-full w-full  ">
      
-      <PointerParticles />
+     
     <Router>
       <Navbar />
+      <PointerParticles />
       <Routes>
-        
+        <Route />
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
