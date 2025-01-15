@@ -1,4 +1,5 @@
-import { flipkart,gyanstore } from "../assets/images";
+import { flipkart,gyanstore,expenseTracker,bookApp,portfolio,swiggyclone} from "../assets/images";
+// import { expenseTracker } from "../assets/images"
 import {
     contact,
     css,
@@ -136,31 +137,40 @@ export const projects = [
         // iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Expense Tracker',
-        description: 'Developed a comprehensive Expense Tracker application aimed at simplifying personal finance management. The project enables users to track, categorize, and analyze their spending patterns, set budgets, and receive AI-driven financial advice. Key features include visual data representation through Chart.js (pie charts, bar graphs, and line charts), tax calculation tools, and a currency converter. The platform offers detailed expense notes for enhanced tracking and planning.\n\n Technologies Used:  HTML, CSS, JavaScript, Chart.js, AI APIs.\n\nFuture Enhancements: Plans to include automated transaction tracking, mobile app development, multi-currency support, and advanced security features.',
+        imageUrl: expenseTracker,
+        // description: 'Developed a comprehensive Expense Tracker application aimed at simplifying personal finance management. The project enables users to track, categorize, and analyze their spending patterns, set budgets, and receive AI-driven financial advice. Key features include visual data representation through Chart.js (pie charts, bar graphs, and line charts), tax calculation tools, and a currency converter. The platform offers detailed expense notes for enhanced tracking and planning.\n\n Technologies Used:  HTML, CSS, JavaScript, Chart.js, AI APIs.\n\nFuture Enhancements: Plans to include automated transaction tracking, mobile app development, multi-currency support, and advanced security features.',
         link: 'https://vishnnsingh.github.io/Expense-Tracker/index.html',
+        type: 'Java Script',
     },
+
     {
         // iconUrl: threads,
         theme: 'btn-back-green',
         name: 'Book App',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        imageUrl: bookApp,
+        // description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
         link: 'https://vishnnsingh.github.io/Fs-23_Module_4/weekly_test_5/index.html',
+        type: 'Java Script',
     },
+    
     {
         // iconUrl: car,
         theme: 'btn-back-blue',
         name: 'Swiggy Clone',
-        description: 'A responsive web design replicating Swiggy\'s interface with a fixed navigation bar, custom hover effects, scalable images, and a Flexbox-based layout. Features include smooth transitions, box shadows, and precise alignment for a modern, user-friendly experience. Built using HTML and CSS.',
+        imageUrl: swiggyclone,
+        // description: 'A responsive web design replicating Swiggy\'s interface with a fixed navigation bar, custom hover effects, scalable images, and a Flexbox-based layout. Features include smooth transitions, box shadows, and precise alignment for a modern, user-friendly experience. Built using HTML and CSS.',
         link: 'https://vishnnsingh.github.io/Swiggy_clone/',
+        type: 'Html Css',
     },
     
-    // {
-    //     iconUrl: snapgram,
-    //     theme: 'btn-back-pink',
-    //     name: 'Full Stack Instagram Clone',
-    //     description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    //     link: 'https://github.com/adrianhajdin/social_media_app',
-    // },
+    {
+        // iconUrl: snapgram,
+        theme: 'btn-back-pink',
+        name: 'Portfolio',
+        imageUrl: portfolio,
+        // description: 'Built a complete portfolio, allowing users to share photos and connect with friends in a familiar social media environment.',
+        link: 'https://vishnu-singh-portfolio.vercel.app/',
+    },
     // {
     //     iconUrl: estate,
     //     theme: 'btn-back-black',
