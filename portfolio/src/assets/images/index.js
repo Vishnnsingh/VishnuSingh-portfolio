@@ -6,6 +6,8 @@ import expenseTracker from './expenseTracker.jpg'
 import bookApp from './bookApp.jpg'
 import portfolio from './portfolio.jpg'
 import swiggyclone from './swiggyclone.jpg'
+import googleDrive from './googleDrive.png'
+import trello from './trello.png'
 
 export {
     flipkart,
@@ -15,5 +17,7 @@ export {
     portfolio,
     swiggyclone,
     hero,
-    logo
+    logo,
+    googleDrive,
+    trello
 }

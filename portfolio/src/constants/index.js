@@ -1,4 +1,4 @@
-import { flipkart,gyanstore,expenseTracker,bookApp,portfolio,swiggyclone} from "../assets/images";
+import { flipkart,gyanstore,expenseTracker,bookApp,portfolio,swiggyclone,googleDrive,trello} from "../assets/images";
 // import { expenseTracker } from "../assets/images"
 import {
     contact,
@@ -133,6 +133,26 @@ export const socialLinks = [
 ];
 
 export const projects = [
+
+    {
+        // iconUrl: pricewise,
+        theme: 'btn-back-yellow',
+        name: 'Google Drive Clone',
+        imageUrl: googleDrive,
+        // description: 'Developed a comprehensive Expense Tracker application aimed at simplifying personal finance management. The project enables users to track, categorize, and analyze their spending patterns, set budgets, and receive AI-driven financial advice. Key features include visual data representation through Chart.js (pie charts, bar graphs, and line charts), tax calculation tools, and a currency converter. The platform offers detailed expense notes for enhanced tracking and planning.\n\n Technologies Used:  HTML, CSS, JavaScript, Chart.js, AI APIs.\n\nFuture Enhancements: Plans to include automated transaction tracking, mobile app development, multi-currency support, and advanced security features.',
+        link: 'https://google-drive-ten-kappa.vercel.app/',
+        type: 'React',
+    },
+
+    {
+        // iconUrl: snapgram,
+        theme: 'btn-back-pink',
+        name: 'Trello clone',
+        imageUrl: trello,
+        // description: 'Built a complete portfolio, allowing users to share photos and connect with friends in a familiar social media environment.',
+        link: 'https://trello-clone-mu-umber.vercel.app/',
+    },
+
     {
         // iconUrl: pricewise,
         theme: 'btn-back-red',
@@ -163,14 +183,7 @@ export const projects = [
         type: 'Html Css',
     },
     
-    {
-        // iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Portfolio',
-        imageUrl: portfolio,
-        // description: 'Built a complete portfolio, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://vishnu-singh-portfolio.vercel.app/',
-    },
+   
     // {
     //     iconUrl: estate,
     //     theme: 'btn-back-black',
