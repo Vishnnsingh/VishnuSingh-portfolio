@@ -22,6 +22,7 @@ export const skills = [
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
+        // skill: "css",
     },
     {
         imageUrl: express,
@@ -115,11 +116,11 @@ export const experiences = [
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
+    // {
+    //     name: 'Contact',
+    //     iconUrl: contact,
+    //     link: 'kumarvishnu65834@gmail.com',
+    // },
     {
         name: 'GitHub',
         iconUrl: github,
@@ -151,6 +152,7 @@ export const projects = [
         imageUrl: trello,
         // description: 'Built a complete portfolio, allowing users to share photos and connect with friends in a familiar social media environment.',
         link: 'https://trello-clone-mu-umber.vercel.app/',
+        type: 'React',
     },
 
     {

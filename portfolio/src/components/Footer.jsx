@@ -22,6 +22,7 @@ const Footer = () => {
               />
             </Link>
           ))}
+         
         </div>
       </div>
     </footer>

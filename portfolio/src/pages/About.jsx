@@ -53,14 +53,18 @@ const About = () => {
 
         <div className='mt-16 flex flex-wrap gap-12 '>
           {skills.map((skill) => (
+
+            
             <div className='block-container w-20 h-20' key={skill.name}>
               <div className='btn-back rounded-xl hover:bg-blue-500 transition-colors duration-300' />
               <div className='btn-front rounded-xl flex justify-center shadow-[rgba(0,0,0,0.17)_0px_-23px_25px_0px_inset,rgba(0,0,0,0.15)_0px_-36px_30px_0px_inset,rgba(0,0,0,0.1)_0px_-79px_40px_0px_inset,rgba(0,0,0,0.06)_0px_2px_1px,rgba(0,0,0,0.09)_0px_4px_2px,rgba(0,0,0,0.09)_0px_8px_4px,rgba(0,0,0,0.09)_0px_16px_8px,rgba(0,0,0,0.09)_0px_32px_16px] items-center hover:bg-blue-500 transition-colors duration-300'>
+              {/* <div>{skill.skill}</div> */}
                 <img
                   src={skill.imageUrl}
                   alt={skill.name}
                   className='w-1/2 h-1/2 object-contain'
                 />
+               
               </div>
             </div>
           ))}
