@@ -1,4 +1,4 @@
-import { flipkart,gyanstore,expenseTracker,bookApp,portfolio,swiggyclone,googleDrive,trello} from "../assets/images";
+import { flipkart,gyanstore,expenseTracker,bookApp,portfolio,swiggyclone,googleDrive,trello,youtube,Landingpage,Emoji,Pokemon} from "../assets/images";
 // import { expenseTracker } from "../assets/images"
 import {
     contact,
@@ -174,6 +174,30 @@ export const projects = [
         link: 'https://vishnnsingh.github.io/Fs-23_Module_4/weekly_test_5/index.html',
         type: 'Java Script',
     },
+
+
+    {
+        // iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Emoji App',
+        imageUrl: Emoji,
+        // description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        link: 'https://vishnnsingh.github.io/Fs-23_Module_4/Emoji_project/index.html',
+        type: 'Java Script',
+    },
+   
+    {
+        // iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Pokemon App',
+        imageUrl: Pokemon,
+        // description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        link: 'https://vishnnsingh.github.io/Fs-23_Module_4/pokemon/index.html',
+        type: 'Java Script',
+    },
+   
+
+    
     
     {
         // iconUrl: car,
@@ -185,7 +209,31 @@ export const projects = [
         type: 'Html Css',
     },
     
+    {
+        // iconUrl: car,
+        theme: 'btn-back-pink',
+        name: 'Youtube Clone',
+        imageUrl: youtube,
+        // description: 'A responsive web design replicating Swiggy\'s interface with a fixed navigation bar, custom hover effects, scalable images, and a Flexbox-based layout. Features include smooth transitions, box shadows, and precise alignment for a modern, user-friendly experience. Built using HTML and CSS.',
+        link: 'https://vishnnsingh.github.io/FS-23-M3/youtube_UI/index.html',
+        type: 'Html Css',
+    },
+
+    {
+        // iconUrl: car,
+        theme: 'btn-back-red',
+        name: 'Landing Page',
+        imageUrl: Landingpage,
+        // description: 'A responsive web design replicating Swiggy\'s interface with a fixed navigation bar, custom hover effects, scalable images, and a Flexbox-based layout. Features include smooth transitions, box shadows, and precise alignment for a modern, user-friendly experience. Built using HTML and CSS.',
+        link: 'https://vishnnsingh.github.io/FS-23-M3/Weekly_test_4_CSS_properties/index.html',
+        type: 'Html Css',
+    },
+
+    
+    
    
+
+    
     // {
     //     iconUrl: estate,
     //     theme: 'btn-back-black',

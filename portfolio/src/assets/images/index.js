@@ -8,7 +8,10 @@ import portfolio from './portfolio.jpg'
 import swiggyclone from './swiggyclone.jpg'
 import googleDrive from './googleDrive.png'
 import trello from './trello.png'
-
+import youtube from './youtube.png'
+import Landingpage from './Landingpage.png'
+import Emoji from './Emoji.png'
+import Pokemon from './Pokemon.png'
 export {
     flipkart,
     gyanstore,
@@ -19,5 +22,9 @@ export {
     hero,
     logo,
     googleDrive,
-    trello
+    trello,
+    youtube,
+    Landingpage,
+    Emoji,
+    Pokemon,
 }
